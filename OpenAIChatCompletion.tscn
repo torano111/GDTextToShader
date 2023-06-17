@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://OpenAIChatCompletion.gd" type="Script" id=1]
+
+[node name="OpenAIChatCompletion" type="Node"]
+script = ExtResource( 1 )
+model = "gpt-3.5-turbo"
